@@ -1,0 +1,35 @@
+{
+  "name": "fe-cli",
+  "version": "1.0.0",
+  "description": "前端开发脚手架",
+  "private": true,
+  "main": "index.js",
+  "bin": {
+    "my-fe": "./src/bin/index.js"
+  },
+  "scripts": {
+    "dev": "node ./bulid.js --dev",
+    "build": "node ./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "axuebin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
+    "commander": "^3.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0",
+    "ora": "^3.4.0",
+    "semver": "^6.3.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.3.0",
+    "rollup": "^1.20.2"
+  }
+}
