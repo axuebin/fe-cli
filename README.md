@@ -1,5 +1,7 @@
 # fe-cli
 
+![fe-cli-vue-ts.png](https://github.com/axuebin/fe-cli/blob/master/img/fe-cli-vue-ts.png)
+
 fe-cli 是一个通用前端脚手架（基础版），通过配置可以自定义多个模板，并且通过缓存机制进行模板版本控制，只需进行简单的修改即可使用。
 
 目前只具备基础功能，其它功能正在开发中...
@@ -97,5 +99,3 @@ module.exports = {
 ```
 fe-cli init <project_name>
 ```
-
-![fe-cli-vue-ts.png](https://github.com/axuebin/fe-cli/blob/master/img/fe-cli-vue-ts.png)
