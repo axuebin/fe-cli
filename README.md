@@ -97,3 +97,5 @@ module.exports = {
 ```
 fe-cli init <project_name>
 ```
+
+![fe-cli-vue-ts.png](https://github.com/axuebin/fe-cli/blob/master/img/fe-cli-vue-ts.png)
