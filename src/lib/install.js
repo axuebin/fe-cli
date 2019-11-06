@@ -12,6 +12,12 @@ const TEMPLATE_CACHE_TIME = 604800000; // 缓存时间7天
 
 const templateConfigPath = path.resolve(os.homedir(), 'fe-cli', 'template_config.json');
 
+
+/**
+ * 安装模板
+ * @param {string} projectType 模板类型
+ * @param {string} templateName 模板名称
+ */
 const install = async (projectType, templateName) => {
   if (!templateName) {
     log.error('模板名称为空，请重新选择');

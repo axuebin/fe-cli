@@ -6,6 +6,9 @@ const pkg = require('../../../package.json');
 
 const { sleep } = utils;
 
+/**
+ * 检测脚手架版本
+ */
 const update = async () => {
   const needUpdate = false;
   if (needUpdate) {

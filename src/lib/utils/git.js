@@ -32,6 +32,11 @@ const getRepoPackageJson = (repo) => {
   });
 };
 
+/**
+ * 下载远程仓库
+ * @param {string} repo 项目名
+ * @param {string} target 存储路径
+ */
 const downloadRepo = (repo = '', target) => {
   const url = `direct:https://github.com/axuebin/${repo}/archive/master.zip`;
   return new Promise(function(resolve, reject) {

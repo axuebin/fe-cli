@@ -29,13 +29,7 @@ module.exports = async function answer(projectName) {
       message: '请选择项目的模板: ',
       choices: function (val) {
         const project_type = val.project_type;
-        let templates = [];
-        switch(project_type) {
-        case 'pc': templates = projectTemplateConfig.pcTemplates; break;
-        case 'mobile': templates = projectTemplateConfig.mobileTemplates; break;
-        case 'node': templates = projectTemplateConfig.nodeTemplates; break;
-        }
-        return templates;
+        return projectTemplateConfig[`${project_type}Templates`];
       },
     },
     {
